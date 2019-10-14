@@ -22,5 +22,5 @@ function run()
 {
     $handle = Docopt::handle(DOC);
     $bracesCount = $handle->args['<bracesCount>'];
-    echo genString($bracesCount);
+    echo genString($bracesCount) . PHP_EOL;
 }
