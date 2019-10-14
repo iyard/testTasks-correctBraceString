@@ -13,10 +13,11 @@ git clone https://github.com/iyard/testTasks-correctBraceString.git
 make install
 ```
 # Использование
+```
 Usage:
   bin/getBracesString (-h|--help)
-  
   bin/getBracesString <bracesCount>
 
 Options:
   * -h --help     	Show this screen
+```
