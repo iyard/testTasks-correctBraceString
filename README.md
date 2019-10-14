@@ -15,6 +15,7 @@ make install
 # Использование
 Usage:
   bin/getBracesString (-h|--help)
+  
   bin/getBracesString <bracesCount>
 
 Options:
