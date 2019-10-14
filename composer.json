@@ -1,0 +1,31 @@
+{
+    "name": "i-yard/test-tasks-correct-brace-string",
+    "bin": [
+      "bin/getBracesString"
+    ],
+    "description": "Make correct string of braces",
+    "authors": [
+      {
+        "name": "i-yard",
+        "email": "iyardsev@gmail.com"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "src/Cli.php",
+        "src/BracesString.php"
+      ]
+    },
+    "scripts": {
+      "phpcs": "phpcs",
+      "phpunit": "phpunit"
+    },
+    "require": {
+      "docopt/docopt": "^1.0"
+    },
+    "require-dev": {
+      "squizlabs/php_codesniffer": "*",
+      "phpunit/phpunit": "*"
+    }
+  }
+  
