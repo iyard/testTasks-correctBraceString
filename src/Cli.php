@@ -1,9 +1,12 @@
 <?php
+
 namespace BracesString\Cli;
 
-use \Docopt;
+use Docopt;
+
 use function BracesString\GenBracesString\genString;
 
+// phpcs:disable
 const DOC = <<<DOC
 Usage:
   bin/getBracesString (-h|--help)
@@ -13,6 +16,7 @@ Options:
   -h --help     	Show this screen
 
 DOC;
+// phpcs:enable
 
 function run()
 {
